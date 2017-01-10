@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eee"
+    tools:context="com.example.androidsp.appgplx.mainActivity.MainActivity"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/off_road" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:text="Ôn tập Lý thuyết"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:id="@+id/btnOntap_LyThuyet"
+                android:background="#cd8bff93"
+                android:drawableTop="@drawable/icon_test"
+                android:paddingTop="7dp"
+                android:onClick="Xuly_btnOnTap_LyThuyet"
+                android:textAllCaps="false" />
+
+            <Button
+                android:text="Ôn tập Biển báo"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:id="@+id/btnOnTap_BienBao"
+                android:background="#cdff8001"
+                android:drawableTop="@drawable/icon_bienbao"
+                android:paddingTop="7dp"
+                android:layout_marginTop="5dp"
+                android:textAllCaps="false" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:text="Đề thi ngẫu nhiên"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:id="@+id/btnDeThi"
+                android:background="#cdffff8c"
+                android:drawableTop="@drawable/abc"
+                android:paddingTop="7dp"
+                android:textAllCaps="false" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:id="@+id/btnMeoGhiNho"
+                android:background="#cdd98cff"
+                android:drawableTop="@drawable/icons_meo"
+                android:text="Mẹo"
+                android:paddingTop="7dp"
+                android:layout_marginTop="5dp"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">APP Gplx</string>
+    <string name="title_activity_btn_ontap__lythuyet">BtnOntap_LythuyetActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_btn_ontap__lythuyet_">Ôn tập lý thuyết</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_giaodien__dethi_">Đề thi</string>
+    <string name="title_activity_btn_bien_bao">Thông tin Biển báo</string>
+    <string name="title_activity_btn_bienbao_">Thông tin Biển báo</string>
+    <string name="title_activity_cauhoi__lythuyet_">Câu hỏi lý thuyết</string>
+    <string name="title_activity_ontap__lythuyet_">Ôn tập lý thuyết</string>
+</resources>

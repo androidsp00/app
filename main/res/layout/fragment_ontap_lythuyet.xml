@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.androidsp.appgplx.BtnOntap_Lythuyet.Ontap_Lythuyet_Activity$PlaceholderFragment">
+
+    <TextView
+        android:hint="Nội dung câu hỏi load từ Firebase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/section_label"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:id="@+id/txtv_DbCauHoi" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="1dp"
+        android:background="#019c06"
+        android:layout_marginTop="10dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_hinhanh"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:id="@+id/img_hinhanh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter" />
+
+    </LinearLayout>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_toRightOf="@+id/section_label"
+        android:layout_toEndOf="@+id/section_label"
+        android:background="#019c06"
+        android:id="@+id/hr"
+        android:textSize="1sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        >
+        <CheckBox
+            android:text="Đáp án 01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/chk_DapAn1"
+            android:button="@drawable/img_checkbox_unanswer"
+            android:textSize="16dp"
+            android:textColor="@color/color_text_checkbox"
+            android:layout_marginBottom="10dp"
+            />
+
+        <CheckBox
+            android:text="Đáp án 02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/chk_DapAn2"
+            android:button="@drawable/img_checkbox_unanswer"
+            android:textSize="16dp"
+            android:textColor="@color/color_text_checkbox"
+            android:layout_marginBottom="10dp"
+            />
+
+        <CheckBox
+            android:text="Đáp án 03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/chk_DapAn3"
+            android:button="@drawable/img_checkbox_unanswer"
+            android:textSize="16dp"
+            android:textColor="@color/color_text_checkbox"
+            android:layout_marginBottom="10dp"
+            />
+        <CheckBox
+            android:text="Đáp án 04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/chk_DapAn4"
+            android:button="@drawable/img_checkbox_unanswer"
+            android:textSize="16dp"
+            android:textColor="@color/color_text_checkbox"
+            android:layout_marginBottom="10dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
